@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registro</title>
+</head>
+<body>
+
+<h2>Formulario de Registro</h2>
+
+<form action="/submit_registration" method="post">
+<label for="fname">Nombre:</label><br>
+<input type="text" id="fname" name="fname" required><br>
+<!-- Este es mi primer cuestionario para coding dojo -->
+<label for="lname">Apellido:</label><br>
+<input type="text" id="lname" name="lname" required><br>
+<label for="email">Correo Electrónico:</label><br>
+<input type="email" id="email" name="email" required><br>
+<label for="pwd">Contraseña:</label><br>
+<input type="password" id="pwd" name="pwd" required><br>
+<label for="birthday">Fecha de Nacimiento:</label><br>
+<input type="date" id="birthday" name="birthday" required><br>
+<br>
+<label for="Gender">Genero:</label><br>
+<input type="radio" id="radio" name="radio" value="opcion1">
+<label for="radio">Masculino</label><br><input type="radio" id="radio" name="radio" value="opcion2">
+<label for="radio">femenino</label><br><input type="radio" id="radio" name="radio" value="opcion1">
+<label for="radio">no binario</label><br><input type="radio" id="radio" name="radio" value="opcion2">
+<label for="radio">Prefiero no responder</label>
+
+</select><br>
+<br>
+
+<label for="description">Descripción:</label></br>
+<textarea id="description" name="description" rows="4" cols="50" required></textarea><br>
+<label for="favorite_language">Lenguaje de Programación Favorito:</label><br>
+<select id="lenguaje favorito" name="lenguaje favorito" required>
+<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+<option value="Javascript">javascript</option>
+<option value="PHP">PHP</option>
+</select><br>
+
+<br>
+<input type="checkbox" id="checkbox" name="checkbox" value="opcion2">
+<label for="checkbox">Sí, me gustaría recibir actualizaciones periódicas por correo electrónico</label><br>
+</br>
+<input type="submit" value=registrarse href= "https://www.codingdojo.la/"target="_blank">
+</form>
+
+</body>
+</html>
